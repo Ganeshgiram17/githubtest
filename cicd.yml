@@ -1,0 +1,13 @@
+name:CICD
+on:
+workflow_dispatch:
+
+job:
+ code:
+run-on:ubuntu-leatest
+steps:
+-name:clone the code
+run:echo "clonine the code"
+buid:
+test:
+deploy:
